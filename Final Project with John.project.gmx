@@ -8,9 +8,46 @@
   <sprites name="sprites">
     <sprite>sprites\spr_test_sprite</sprite>
     <sprite>sprites\spr_playerWalk</sprite>
+    <sprite>sprites\spr_background</sprite>
+    <sprite>sprites\spr_wall1</sprite>
+    <sprite>sprites\spr_wall2</sprite>
+    <sprite>sprites\spr_playerIdle</sprite>
+    <sprite>sprites\spr_wallParent</sprite>
+    <sprite>sprites\spr_playerJump</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bgr_moving</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_title.gml</script>
+    <script>scripts\scr_gravity.gml</script>
+    <script>scripts\scr_playerCreate.gml</script>
+    <script>scripts\scr_playerJump.gml</script>
+    <script>scripts\scr_playerWalkRight.gml</script>
+    <script>scripts\scr_playerHealth.gml</script>
+    <script>scripts\scr_playerIdle.gml</script>
+    <script>scripts\scr_playerStep.gml</script>
+    <script>scripts\scr_playerWalkLeft.gml</script>
+    <script>scripts\scr_playerCollisionCheck.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_title</object>
+    <object>objects\obj_wall1</object>
+    <object>objects\obj_wall2</object>
+    <object>objects\obj_wallParent</object>
+    <object>objects\obj_player</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
+  <constants number="5">
+    <constant name="IDLE">0</constant>
+    <constant name="LEFT">0</constant>
+    <constant name="RIGHT">0</constant>
+    <constant name="JUMP">0</constant>
+    <constant name="DEAD">0</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
