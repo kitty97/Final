@@ -1,3 +1,11 @@
+actionPrevious = action;
 action = JUMP;
+jumpSpeed = 0;
+if(actionPrevious == RIGHT && rightFree) {
+    jumpSpeed = 3;
+} else if(actionPrevious == LEFT && leftFree) {
+    jumpSpeed = -3;
+}
 sprite_index = jump;
-move_towards_point(x + hspeed, y - 5, 5);
+image_index = 0;
+move_towards_point(x + jumpSpeed, y - 20, 5);

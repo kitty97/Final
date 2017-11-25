@@ -14,6 +14,10 @@
     <sprite>sprites\spr_playerIdle</sprite>
     <sprite>sprites\spr_wallParent</sprite>
     <sprite>sprites\spr_playerJump</sprite>
+    <sprite>sprites\scr_playerCast1</sprite>
+    <sprite>sprites\spr_playerCast2</sprite>
+    <sprite>sprites\spr_playerCast3</sprite>
+    <sprite>sprites\spr_reaper</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_moving</background>
@@ -30,6 +34,8 @@
     <script>scripts\scr_playerStep.gml</script>
     <script>scripts\scr_playerWalkLeft.gml</script>
     <script>scripts\scr_playerCollisionCheck.gml</script>
+    <script>scripts\scr_instanceDestroy.gml</script>
+    <script>scripts\script11.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_title</object>
@@ -43,10 +49,10 @@
   </rooms>
   <constants number="5">
     <constant name="IDLE">0</constant>
-    <constant name="LEFT">0</constant>
-    <constant name="RIGHT">0</constant>
-    <constant name="JUMP">0</constant>
-    <constant name="DEAD">0</constant>
+    <constant name="LEFT">1</constant>
+    <constant name="RIGHT">2</constant>
+    <constant name="JUMP">3</constant>
+    <constant name="DEAD">4</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

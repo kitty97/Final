@@ -8,5 +8,5 @@ if (place_free(x,y+vspeed)) {
     while(place_free(x,y+1)) y++;
 }
 if (!place_free(x, y - 1)) {
-    y -= 1;
+    y -= 2;
 }
