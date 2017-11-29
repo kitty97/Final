@@ -18,6 +18,8 @@
     <sprite>sprites\spr_playerCast2</sprite>
     <sprite>sprites\spr_playerCast3</sprite>
     <sprite>sprites\spr_reaper</sprite>
+    <sprite>sprites\spr_portalOpen</sprite>
+    <sprite>sprites\spr_portalIdle</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_moving</background>
