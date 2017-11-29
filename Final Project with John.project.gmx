@@ -21,6 +21,7 @@
     <sprite>sprites\spr_playerCast3</sprite>
     <sprite>sprites\spr_reaper</sprite>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <sprite>sprites\spr_portalOpen</sprite>
     <sprite>sprites\spr_portalIdle</sprite>
 =======
@@ -30,6 +31,8 @@
     <sprite>sprites\spr_Portal</sprite>
     <sprite>sprites\spr_PlayerShoots</sprite>
 >>>>>>> 5eb74492b21f32c66855342ca32fa2435d292ca9
+=======
+>>>>>>> parent of e121c73... small changes
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_moving</background>
